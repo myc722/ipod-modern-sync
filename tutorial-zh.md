@@ -45,7 +45,7 @@ python3 sync_ipod.py --music-dir 你的音乐文件夹
 
 推出 iPod，重启它（菜单键+中键 6 秒），完事。
 
-全套工具在 GitHub：【链接】，教程和脚本都在里面。
+全套工具在 GitHub：https://github.com/myc722/ipod-modern-sync ，教程和脚本都在里面。
 
 ### 三条铁律（血的教训）
 
