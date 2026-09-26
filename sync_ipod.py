@@ -326,7 +326,9 @@ def main():
         for p in orphans:
             log(f"删除孤儿 {p.relative_to(ipod)}")
             p.unlink()
-    log(f"最终 iPod 文件数 {len(list(music_root.rglob('*')))}")
+    final = [p for p in music_root.rglob("*")
+             if p.suffix.lower() in AUDIO_EXT and p.is_file()]
+    log(f"最终 iPod 文件数 {len(final)}")
 
     art_db = ipod / "iPod_Control" / "Artwork" / "ArtworkDB"
     ithmbs = list(art_db.parent.glob("*.ithmb"))
