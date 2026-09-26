@@ -100,6 +100,9 @@ Not affiliated with or endorsed by Apple. Use it with music you have the right t
 
 ## 简体中文
 
+> 📖 **第一次使用？先看 [零基础完整教程](GUIDE-zh.md)**：从装环境、装下载器到日常导歌的每一步，
+> 含常见问题排查。仓库 `amdl-helpers/` 里有三个双击即用的小脚本（启动解密服务 / 下载音乐 / 修封面）。
+
 ### 问题背景
 
 macOS 从 Catalina（10.15）开始把 iPod 管理交给了访达的后台代理（`AMPDevicesAgent`）。实际体验是：
